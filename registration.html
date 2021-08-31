@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/registiration.css" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <form autocomplete="off" action="thankYou.html">
+
+      <h2>Registiration</h2>
+
+      <label for="fName">First Name</label>
+      <input type="text" name="fName" required />
+      <br />
+      <br />
+
+      <label for="lName">Last Name</label>
+      <input type="text" name="lName" required />
+      <br />
+      <br />
+
+      <label for="email">Your Email</label>
+      <input type="email" name="email" required />
+      <br />
+      <br />
+
+      <label for="password">Password</label>
+      <input type="password" name="password" />
+      <br />
+      <br />
+
+      <label for="rPassword">Repeat Password</label>
+      <input type="password" name="rpassword" />
+      <br />
+      <br />
+
+      <label for="bDate">Birth Date</label>
+      <input type="date" name="bDate" />
+      <br />
+      <br />
+
+      <label for="userPic">Upload Ypur Picture</label>
+      <input type="file" name="userPic" />
+      <br />
+      <br />
+
+      <fieldset>
+        <legend>Gender</legend>
+        <label>
+          <input type="radio" name="radio" />
+          Male
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="radio" />
+          Female
+        </label>
+      </fieldset>
+      <br />
+      <br />
+
+      <label for="faculty">Faculty</label>
+      <select name="faculty">
+        <option value="">Choose one</option>
+        <option value="">Computer Science</option>
+        <option value="">Engineering</option>
+        <option value="">Business</option>
+        <option value="">Pharmacy</option>
+      </select>
+      <br />
+      <br />
+
+      <fieldset>
+        <legend>Interests</legend>
+        <label>
+          <input type="checkbox" />
+          Programming
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" />
+          Reading
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" />
+          Swimming
+        </label>
+      </fieldset>
+      <br />
+      <br />
+
+      <label for="about">About You</label>
+      <br />
+      <textarea cols="30" rows="10"></textarea>
+      <br />
+      <br />
+
+      <label for="terms">
+        <input type="checkbox" />
+        I agreed to terms and condition
+      </label>
+      
+      <a href="termsConditions.html" target="_blanck">terms and conditions</a>
+      <br />
+      <br />
+
+      <input type="submit" value="Registe" />
+      <input type="reset" value="Reset your data" />
+    </form>
+  </body>
+</html>

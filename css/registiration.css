@@ -1,0 +1,25 @@
+@import url('global.css');
+
+form {
+    width: 50%;
+    border: 3px solid brown;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+form h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+}
+
+form fieldset {
+    width: 30%;
+    padding: 20px;
+}
+
+input[type="submit"], input[type="reset"] {
+    padding: 5px 10px;
+}
